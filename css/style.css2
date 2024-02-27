@@ -1,17 +1,17 @@
-/* Created by: Manya Feng
-* Created on: Feb 2024
+/* Created by: Mr. Coxall
+* Created on: Sep 2020
 * This file contains the CSS for index.html
 */
 
-/* Due to error in MDL : https: //github.com/google/material-design-lite/issues/5281
+/* Due to error in MDL : https://github.com/google/material-design-lite/issues/5281
 */
 .mdl-ripple {
-  background: #lightyellow;
+  background: #000;
   opacity: 0.001;
 }
 
 .mdl-layout__header-row {
-  justify-content: left;
+  justify-content: center;
   padding: 0;
 }
 
@@ -22,7 +22,7 @@
 }
 
 .mdl-textfield__error {
-  color: lightblue;
+  color: lightgreen;
 }
 
 .page-content {
@@ -32,5 +32,5 @@
 }
 
 body {
-  background-color: #lightgreen;
+  background-color: cornflowerblue;
 }
